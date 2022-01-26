@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Demo</string>
+    <string name="can_not_instantiate">u can\'t instantiate me...</string>
+    <string name="should_init_first">u should init first</string>
 </resources>

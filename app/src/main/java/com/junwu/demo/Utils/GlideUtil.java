@@ -20,6 +20,7 @@ import com.bumptech.glide.signature.ObjectKey;
 
 /**
  * 创建日期：2022/1/26
+ *
  * @author jun.wu
  * 文件名称：GlideUtil.java
  * 类说明：GlideUtil 工具类
