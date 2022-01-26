@@ -1,6 +1,5 @@
 package com.junwu.demo.Utils;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
@@ -20,11 +19,13 @@ import com.bumptech.glide.request.RequestOptions;
 import com.bumptech.glide.signature.ObjectKey;
 
 /**
- * 创建日期：2021/12/13
- *
- * @author Leibown
- * 文件名称： GlideUtil.java
- * 类说明：GlideUtil
+ * 创建日期：2022/1/26
+ * @author jun.wu
+ * 文件名称：GlideUtil.java
+ * 类说明：GlideUtil 工具类
+ * 在build.gradle中添加依赖：
+ * implementation 'com.github.bumptech.glide:glide:4.12.0'
+ * implementation 'com.github.bumptech.glide:compiler:4.12.0'
  */
 public class GlideUtil {
 
@@ -40,7 +41,6 @@ public class GlideUtil {
         private FileManagerHolder() {
         }
 
-        @SuppressLint("StaticFieldLeak")
         private static final GlideUtil INSTANCE = new GlideUtil();
     }
 
